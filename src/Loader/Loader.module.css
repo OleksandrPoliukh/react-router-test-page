@@ -1,0 +1,22 @@
+.loader {
+    height: 100vh;
+    display: flex;
+    color: red;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 0.1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
